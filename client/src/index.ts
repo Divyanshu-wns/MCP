@@ -9,7 +9,7 @@ import { Logger } from './logger.js';
 // Configure logger
 Logger.configure({
     consolePrint: false,  // Change to false to disable console output
-    logPrefix: 'weather-client',
+    logPrefix: 'mcp-client',
     maxFileSize: 5 * 1024 * 1024  // 5MB
 });
 
@@ -265,7 +265,7 @@ async function runAssistant() {
         Logger.client('Retrieved available MCP tools', { tools: toolsResult.tools.map(tool => tool.name) });
         console.log('Available MCP tools:', toolsResult.tools.map(tool => tool.name));
         
-        console.log("\nGeneric AI Assistant (with Weather capabilities)");
+        console.log("\n Your Personal AI Assistan");
         console.log("Type 'exit' to quit the program\n");
 
         while (true) {
