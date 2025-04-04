@@ -8,8 +8,9 @@
   "dependencies": {
     "@google/generative-ai": "^0.24.0",
     "@modelcontextprotocol/sdk": "latest",
-    "axios": "^1.6.0",
+    "axios": "^1.8.4",
     "dotenv": "^16.3.1",
+    "openai": "^4.91.1",
     "weather-client": "file:",
     "zod": "^3.22.4"
   },
